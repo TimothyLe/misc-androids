@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">CMPE 137 Lab 3 MyTube</string>
+    <string name="api_key">AIzaSyCuunGSBhBPOsgSVZrD4mwS8co3FkZx9OI</string>
+
+    <!--Misc-->
+    <string name="auth_code_fmt">oAuth2: %s</string>
+    <string name="id_token_fmt">ID Token: %s</string>
+    <string name="loading">Loading…</string>
+    <!--Sign in-->
+    <string name="sign_in_fmt">Signed in as: %s</string>
+    <string name="sign_in">Signed in</string>
+    <string name="signing_in">Signing in…</string>
+    <string name="sign_out">Signed out</string>
+    <string name="sign_in_error">"Error: please check logs."</string>
+    <string name="error_null_person">
+        Error: Plus.PeopleApi.getCurrentPerson returned null. Ensure the following: Google+ API is
+        enabled for your project, google-services.json is properly configured, and that your
+        device has an internet connection.
+    </string>
+    <!--Activity Names and Descriptions-->
+    <string name="sign_in_activity_name">Sign In Activity</string>
+    <string name="sign_in_activity_desc">Allowing sign ins, sign outs, or prevent access</string>
+    <string name="id_token_activity_name">ID Token Activity</string>
+    <string name="id_token_activity_desc">Retrieving ID token</string>
+    <string name="auth_code_activity_name">Server Auth Code Activity</string>
+    <string name="auth_code_activity_desc">Retrieving auth code to authenticate server</string>
+    <!--Server Client from Google API console-->
+    <string name="web_oauth_2_client_id">433930607969-3ovn2f7sknjieriho3qp10veqm528su1.apps.googleusercontent.com</string>
+</resources>

@@ -1,0 +1,3 @@
+[submodule "MyTube-submodule"]
+	path = MyTube-submodule
+	url = https://github.com/RamIndani/MyTube

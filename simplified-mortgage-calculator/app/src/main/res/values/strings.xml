@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CMPE 137 Lab 2 Mortgage Calculator</string>
+    <!--Input-->
+    <string name="home_value">Home Value</string>
+    <string name="down_payment">Down Payment</string>
+    <string name="interest_rate">Interest Rate</string>
+    <string name="terms">Terms (in Years 15,20,25,30,40)</string>
+    <string name="property_tax_rate">Property Tax Rate</string>
+
+    <!--Output-->
+    <string name="monthly_payment_amount">Monthly Payment Amount</string>
+    <string name="total_interest_paid">Total Interest Paid</string>
+    <string name="total_property_tax_paid">Total Property Tax Paid</string>
+    <string name="pay_off_date">Pay Off Date (in Months)</string>
+
+    <!--Placeholder-->
+    <string name="double_zero">0.0</string>
+    <string name="int_zero">0</string>
+
+    <!--Data entry-->
+    <string name="missing_entries">Missing Entries!</string>
+    <string name="provide_entries">Please enter the values first!</string>
+    <string name="incorrect_term">Incorrect term!</string>
+    <string name="provide_term">Please enter either 15,20,25,30,40 for term!</string>
+</resources>

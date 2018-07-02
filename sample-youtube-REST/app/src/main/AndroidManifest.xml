@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.student.cmpe137_android_lab3v2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!--Control Activity flow here-->
+        <!--1-->
+        <activity android:name=".DecideActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--2-->
+        <activity android:label="@string/sign_in_activity_name" android:name=".SignInActivity" android:theme="@style/ThemeOverlay.MyNoTitleActivity"/>
+        <!--3-->
+        <activity android:label="@string/sign_in_activity_name" android:name=".SignInDriveActivity" android:theme="@style/ThemeOverlay.MyNoTitleActivity"/>
+        <!--4-->
+        <activity android:label="@string/id_token_activity_name" android:name=".IdTokenActivity" android:theme="@style/ThemeOverlay.MyNoTitleActivity"/>
+        <!--5-->
+        <activity android:label="@string/auth_code_activity_name" android:name=".ServerAuthCodeActivity" android:theme="@style/ThemeOverlay.MyNoTitleActivity"/>
+        <!--6-->
+        <activity android:label="@string/app_name" android:name=".MainActivity" android:theme="@style/ThemeOverlay.MyNoTitleActivity"/>
+    </application>
+
+</manifest>
